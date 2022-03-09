@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 10px}
+.w3-row-padding img {margin-bottom: 12px}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	min-height: 100vh;
+	background: none;
+
+}
+
+.photo-container
+{
+	position: relative;
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	grid-template-rows: minmax(100px, auto-fill);
+	margin: 40px;
+	grid-auto-flow: dense;
+	grid-gap: 10px; 
+}
+
+.photo-container .box 
+{
+	background: #333;
+	padding: 20px;
+	display: grid;
+	font-size:20px;
+	place-times: center;
+	text-align: center;
+	color: #ffcc00;
+	transition: .5s;
+}
+
+.photo-container .box:hover 
+{
+	 background: #fbf7d6;
+}
+
+.photo-container .box img 
+{
+	position: relative;
+	max-width: 100px;
+	margin-bottom: 10px;
+}
+
+.photo-container .box:nth-child(1)
+{
+	grid-column: span 2;
+	grid-row:  span 1;
+
+}
+
+.photo-container .box:nth-child(2)
+{
+	grid-column: span 1;
+	grid-row:  span 2;
+}
+
+
+.photo-container .box:nth-child(2)
+{
+	grid-column: span 1;
+	grid-row:  span 2;
+}
+
+
+.photo-container .box:nth-child(4)
+{
+	grid-column: span 1;
+	grid-row:  span 2;
+}
+
+
+.photo-container .box:nth-child(7)
+{
+	grid-column: span 3;
+	grid-row:  span 1;
+}
+
+
+.photo-container .box:nth-child(6)
+{
+	grid-column: span 1;
+	grid-row:  span 1;
+}
+
+
+/*
+img {
+    width:50%;  you can use % 
+    height: auto;
+}*/
