@@ -29,6 +29,10 @@
       <a href="#profile" class="w3-bar-item w3-button w3-hide-small">PROFILE</a>
       <a href="#collection" class="w3-bar-item w3-button w3-hide-small">COLLECTION</a>
       <a href="#photo" class="w3-bar-item w3-button w3-hide-small">PHOTO</a>
+      <a href="#reg" class="w3-bar-item w3-button w3-hide-small">REGISTER SUBJECTS</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small">Contact</a>
+
+
 
     </div>
   </div>
@@ -48,10 +52,11 @@
         <ul style="list-style-type:circle">
             <li>HTML, CSS, BOOTSTRAP, RESPONSIVE, UX/UI ( Maybe ^^!) </li>
             <li>Javascript with React and Vue framework</li>
-            <li>Backend: Flask, Nodejs, Express</li>
-            <li>Database: MogoDB, SQLite</li>
+            <li>Backend: Flask, Nodejs, Express, .NET</li>
+            <li>Database: MogoDB, SQLite, SQL, MySQL, </li>
             <li> Tools: Git, Docker, Postman,... and some deloyment platform : Heroku, Netify, Vercel, Git Page, ...</li>
           </ul>
+          
         
 
         <div class="w3-panel w3-light-grey">
@@ -209,7 +214,7 @@
 
 		
 
-		<div class="box">
+		<div class="box" id="reg">
 			<div class="content">
 				<img src="public\d.jpeg">
 				<p> Avoid close contact with animals that are sick.</p>
@@ -217,6 +222,110 @@
 		</div>	
 
 	</div>
+
+  
+  <div class="register-form"> 
+<div class="header-reg">
+  <h1> Information Technology West of England </h1>
+  <hr>
+  <h2> Register Subject with me !!! </h2>
+  
+</div>
+
+</div>
+  <form>
+    <div class="container-form"> 
+    <label for="fname">Full name</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br><br>
+    
+    <label for="ID">ID</label>
+    <input type="text" id="ID" name="ID" placeholder="Enter your ID"><br><br>
+    
+    <label for="ID">Email</label>
+    <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
+    
+    <label for="ID">Gender </label>
+   
+    <input type="radio" id="male" name="male" value="Male">
+    <label for="male">Male</label>
+    
+    <input type="radio" id="Female" name="Female" value="Female">
+    <label for="Female">Female</label>
+    
+    <br><br>
+    
+    <label for = "fiel_study"> Fiel of study </label>
+    <select name="fiels" id="fiels">
+      <option value="CS">CS</option>
+      <option value="IM">IM</option>
+      <option value="EE">EE</option>
+      <option value="BA">BA</option>
+      <option value="BE">BE</option>
+    </select>  
+    <br><br>
+    
+    <label for = "fiel_study"> List of subjects </label> <br>
+    <input type="checkbox" id="ee" name="ee" value="ee">
+    <label for="vehicle1"> Principle of EE 1</label><br>
+    <input type="checkbox" id="cn" name="cn" value="cn">
+    <label for="vehicle2"> Computer Network</label><br>
+    
+    <input type="checkbox" id="web" name="web" value="web">
+    <label for="vehicle3"> Web Application Development </label><br>
+    
+    <input type="checkbox" id="oop" name="oop" value="oop">
+    <label for="vehicle3"> Object Oriented Programming </label><br>
+    
+    <input type="checkbox" id="cg" name="cg" value="cg">
+    <label for="vehicle3"> Computer Graphics </label><br><br>
+    
+    
+    <label for="Comments">Comments</label> <br>
+    <textarea id="Comments" name="commentstex" rows="5" cols="50" placeholder="Enter your comments">  </textarea>
+  <br>
+  <div>
+    <button class="submitbtn" type="submit"  value="Submit">Submit</button>
+    
+    <button class="cancelbtn" type="submit" form="nameform" value="Cancel">Cancel</button>
+ <br><br><br>
+  </div>
+     </div>
+
+  </form>
+</div>
+<br><br>
+
+
+<!-- Contact Page  -->
+
+<div class="contact-page" id="contact">
+<div class="header-contact">
+  <h1> If you wanna register subjects with me</h1>
+  <p> Leave your information into below form</p>
+</div>
+<br>
+  <form>
+    <div class="container-form"> 
+      <label for="fname">Full name</label>
+      <input type="text" id="fname" name="fname" placeholder="Enter your full name"><br><br>
+    
+      <label for="id">Your Student ID</label>
+      <input type="text" id="id" name="id" placeholder="Enter your student ID"><br><br>
+      
+      <label for="fname">Your Number Phone</label>
+      <input type="text" id="np" name="np" placeholder="Enter your number phone"><br><br>
+    
+      <button class="regbtn" type="submit"  value="Register">Register Now</button>
+    
+    
+    </div>  
+</form>
+
+</div>
+
+
+
+
 
 </body>
 </html>
